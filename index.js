@@ -9,11 +9,11 @@
     const server=http.createServer(app);
     const io=new Server(server,{
         cors: {
-            origin: "http://localhost:5173", 
+            origin: "heroic-fairy-60c220.netlify.app", 
             methods: ["GET", "POST"]
           }
     })
-
+    // http://localhost:5173
 
     let users = {};
     console.log("user",users);
